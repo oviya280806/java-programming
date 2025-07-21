@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int A4sheet=sc.nextInt();
+        int pen=sc.nextInt();
+        int pencil=sc.nextInt();
+        int Eraser=sc.nextInt();
+        System.out.println("Items Details");
+        System.out.println("A4sheet:" +A4sheet);
+        System.out.println("Pen:" +pen);
+        System.out.println("Pencil:" +pencil);
+        System.out.println("Eraser:" +Eraser);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
