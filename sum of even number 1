@@ -1,0 +1,49 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+     
+
+
+
+  
+
+        Scanner sc = new Scanner(System.in);
+
+        int num1 = sc.nextInt();
+
+        int num2 = sc.nextInt();
+
+        if (num1 > 20 || num2 > 20) {
+
+            System.out.println("Invalid Input");
+
+        } else {
+
+            int start = Math.min(num1, num2);
+
+            int end = Math.max(num1, num2);
+
+            int sum = 0;
+
+            for (int i = start; i <= end; i++) {
+
+                if (i % 2 == 0) {
+
+                    sum += i;
+
+                }
+
+            }
+
+            System.out.println(sum);
+
+        }
+
+    }
+
+}
+    
